@@ -1,0 +1,127 @@
+@charset "utf-8";
+html {
+    font-size: 62.5%;
+}
+body {
+  margin: 0;
+  color: #456;
+  padding: 0.45rem 1.6rem;
+  font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,Arial,sans-serif;
+}
+body * {
+  white-space: nowrap;
+}
+/* 头部 */
+#header h1{
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+
+/* 主要的内容 */
+#content {
+  font-size: 1.4rem;
+  padding-top: 0.8rem;
+}
+#content div {
+  padding: 0.6rem;
+  border: 0.1rem dashed #ccc;
+  text-align: center;
+  letter-spacing: 0.3rem;
+}
+#content div:first-child{
+  border-top-left-radius: 0.6rem;
+  border-top-right-radius: 0.6rem;
+}
+#content b {
+  font-weight: 500;
+  color: #345;
+}
+#content select, input, option {
+  width: 4.2rem;
+  color: #3399FF;
+  font-size: 1.4rem;
+  padding-left: 0.2rem;
+  text-align: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+#content .set{
+  text-align: center;
+  border: none;
+  padding-bottom: 0;
+}
+
+/* 启动单独出现 点击后现重启、停止 点击停止后出现继续 */
+#content button{
+  height: 2.8rem;
+  font-size: 1.4rem;
+  outline: none;
+  border: none;
+  border-radius: 0.6rem;
+  color: #fff;
+  cursor: pointer;
+}
+/* 启动按钮 */
+#content button.start {
+  width: 100%;
+}
+
+/* 启动 继续 */
+#content button.start,button.goon {
+  background-color: #33CC99;
+}
+#content button.start:hover,button.goon:hover {
+  background-color: #00DD77;
+}
+
+/* 重启按钮 */
+#content button.restart {
+  background-color: #EEEE00;
+}
+#content button.restart:hover {
+  background-color: #BBBB00;
+}
+
+/* 重启按钮  停止 继续 */
+#content button.restart,button.stop,button.goon {
+  width: 50%;
+  display: none;
+}
+/* 按钮  停止 */
+#content button.stop {
+  background-color: #FF0000;
+}
+#content button.stop:hover  {
+  background-color: #CC0000;
+}
+
+
+/* 提示 */
+#prompt {
+  font-size: 1.2rem;
+  text-align: center;
+}
+#prompt p{
+  margin: 0.2rem 0;
+}
+#prompt .info {
+  margin: 0.5rem 0;
+  font-size: 1.4rem;
+  color: #FF6600;
+}
+/* 版权 */
+#copyright {
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: center;
+}
+#copyright p{
+  margin: 0.3rem;
+}
+#copyright a {
+  color: #FF9900;
+  text-decoration: none;
+}

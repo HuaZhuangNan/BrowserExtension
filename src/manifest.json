@@ -1,0 +1,40 @@
+﻿{
+	"manifest_version": 2,
+	"name": "最爱小助手",
+	"version": "1.0.1",
+	"description": "有问题请联系QQ：2382252568",
+	"icons":
+	{
+		"16": "img/icon.png",
+		"48": "img/icon.png",
+		"128": "img/icon.png"
+	},
+  "background":
+  {
+  	"page": "view/background.html"
+  },
+  "browser_action": 
+  {
+    "default_icon": "img/icon.png",
+		"default_title": "有问题联系QQ：2382252568",
+    "default_popup": "/view/no.html"
+  },
+	"content_scripts": 
+	[
+		{
+			"matches": ["<all_urls>"],
+			"js": ["js/lib/jquery-1.10.1.js"],
+			"run_at": "document_end"
+		}
+	],
+	"permissions":
+	[
+    "tabs",
+    "storage", 
+		"notifications",  
+    "webNavigation",
+    "http://*/*",
+    "https://*/*"
+	],
+  "web_accessible_resources": [ "/view/help.html"]
+}
