@@ -83,7 +83,7 @@
         console.log("正在播放下一章！....");
         setTimeout(function(){
           v=videoDot=undefined;
-          window.ononline=goRun(setConfig);
+          window.onload=goRun(setConfig);
         },2000);
       })
   

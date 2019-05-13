@@ -101,7 +101,7 @@
         },1000)
         setTimeout(function(){
           v=videoDot=undefined;
-          window.ononline = goRun(setConfig);
+          window.onload = goRun(setConfig);
         },3000)
       })
     
