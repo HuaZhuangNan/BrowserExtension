@@ -28,17 +28,16 @@
       //<script type="text/javascript" src="http://study.zhihuishu.com/web/scripts/learning/videoListNew.js?v=20190216"></script>
       //playButton
       v = $("video")[0] || $("vjs_mediaplayer_html5_api")[0];
-      v.muted=true;
       if(autoplay=="true"&&v.paused) {
         // $("#playButton").trigger("click");
-        setTimeout(function () {
-          //延迟1秒执行调节播放速率
-          v.play();
-        },2000);
+        //延迟2秒执行调节播放速率
+        v.play();
         console.log("正在播放:"+$(".videoTitle").eq(0).text());
       };
-      // 不静音
-      if(muted=="false")v.muted=false;
+      // 是否静音
+      if(muted=="false") v.muted=false;
+      else v.muted=true;
+      console.log("静音状态：",v.muted)
       // 播放速度
       setTimeout(function () {
         //延迟3秒执行调节播放速率
@@ -95,13 +94,15 @@
     // 下一集
     if(autonext=="true") 
       $("video").eq(0).on("ended",function(){  // 视频结束
-        console.log("正在播放下一章！");
-        $("#nextBtn").trigger("click");
-        console,log($("#nextBtn"))
-        setTimeout(function(){  
+        console.log("正在播放下一章。。。");
+        setTimeout(function(){
+          // $(".next_lesson div").trigger("click");
+          $(".tm_next_lesson").eq(0).trigger("hover").trigger("click")
+        },1000)
+        setTimeout(function(){
           v=videoDot=undefined;
-          goRun(setConfig);
-        },3000);
+          window.ononline = goRun(setConfig);
+        },3000)
       })
     
     };

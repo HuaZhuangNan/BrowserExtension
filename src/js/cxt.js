@@ -20,21 +20,22 @@
         autodt   = setConfig.autodt,   // 自动答题
         autonext = setConfig.autonext, // 自动下一章
         state    = setConfig.state;   // 播放状态
-    
+    window.alert=none;
     var iframVideo = $("#iframe").contents().find("iframe").contents();
     // 移除监听（可以倍数可以一步到最后）
     iframVideo.find(".x-body").unbind();
     // 播放
     v = iframVideo.find("video");
-    v[0].muted=true;//静音
     setTimeout(function(){
       // 监听事件
       if(autoplay=="true"&&v[0].paused)
       v[0].play();
       console.log("正在播放:"+$("#iframe").contents().find("p .ans-attach-ct .ans-job-icon").text());
     },1000);
-    // 不静音
-    if(muted=="false"&&v[0].muted==true)v[0].muted=false;
+    // 静音
+    if(muted=="false") v[0].muted=false;
+    else v[0].muted=true;//静音
+    console.log("静音状态",v[0].muted)
     // 播放速度
    //延迟3秒执行调节播放速率
       setTimeout(function () {
@@ -77,12 +78,12 @@
       // 视频结束
       var menuList = $("#coursetree .ncells");
       var nextindex =menuList.find("h4.currents").removeClass("currents").parent().parent().index();
+      menuList.eq(nextindex).find("h4").addClass("currents").trigger("click");
       // 下一章
         console.log("正在播放下一章！....");
         setTimeout(function(){
-          menuList.eq(nextindex).find("h4").addClass("currents").trigger("click");
           v=videoDot=undefined;
-          goRun(setConfig);
+          window.ononline=goRun(setConfig);
         },2000);
       })
   
