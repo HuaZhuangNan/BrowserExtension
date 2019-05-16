@@ -57,7 +57,7 @@
 
 ## 如果觉得好用，支持下呗
 <div style="float:left;">
- <img alt="QQ" alt="left" src="./img/qq.png" width="30%" height="400px" style="float:left;">
- <img alt="微信" alt="left" src="./img/wexin.png" width="30%" height="400px" style="float:left;">
- <img alt="支付宝" alt="left" src="./img/zfb.jpg" width="30%" height="400px" style="float:left;">
+ <img alt="QQ"  src="./img/qq.png" width="30%" height="400px" >
+ <img alt="微信" src="./img/wexin.png" width="30%" height="400px" >
+ <img alt="支付宝" src="./img/zfb.jpg" width="30%" height="400px" >
 </div>
