@@ -12,12 +12,6 @@
 
 ## 准备编写一个答题辅助插件有兴趣的也欢迎来骚扰
 
-## 如果觉得好，支持下呗
-
- <img alt="QQ" src="./img/qq.png" width="30%" height="400px">
- <img alt="微信" src="./img/wexin.png" width="30%" height="400px">
- <img alt="支付宝" src="./img/zfb.jpg" width="30%" height="400px">
-
 ## 介绍：低调使用，建议不过6倍
   + 名字：最爱小助手
   + 版本：1.0.1
@@ -61,3 +55,8 @@
 
 ## 后记：送大家一句话吧：未来的不可知是我前进的源动力！
 
+## 如果觉得好用，支持下呗
+
+ <img alt="QQ" src="./img/qq.png" width="30%" height="400px" style="float:left;">
+ <img alt="微信" src="./img/wexin.png" width="30%" height="400px" style="float:left;">
+ <img alt="支付宝" src="./img/zfb.jpg" width="30%" height="400px">
