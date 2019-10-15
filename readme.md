@@ -4,17 +4,17 @@
 
 ## 更新1.2.0
 
-    + 首先感谢大家的支持，希望大家好好学习吧！
-    + 本次修复了学习通等一系列问题
-    + 版本升级 1.2.0
-    + 完工时间 2019年7月20日14:17:27
++ 首先感谢大家的支持，希望大家好好学习吧！
++ 本次修复了学习通等一系列问题
++ 版本升级 1.2.0
++ 完工时间 2019年7月20日14:17:27
 
 ## 更新1.1.0
 
-    + 首先感谢大家的支持，因为电脑屏幕碎了花了我300大洋自己装，所以我前些时间一直没有修复这些bug，希望大家好好学习吧！
-    + 本次删除公共的content-script.js,修复了智慧树跳章节等问题
-    + 版本升级 1.1.0
-    + 完工时间 2019年5月13日 17点55分
++ 首先感谢大家的支持，因为电脑屏幕碎了花了我300大洋自己装，所以我前些时间一直没有修复这些bug，希望大家好好学习吧！
++ 本次删除公共的content-script.js,修复了智慧树跳章节等问题
++ 版本升级 1.1.0
++ 完工时间 2019年5月13日 17点55分
 
 ## 联系方式QQ：2382252568
 
@@ -22,23 +22,23 @@
 
 ## 介绍：低调使用，建议不过6倍
 
-    + 名字：最爱小助手
-    + 版本：1.0.1
-    + 作者：花妆男（HuanZhuangNan）-- 原用名-陌轩痕
-    + 语言 JavaScript、Html、Css
-    + 完工时间：2019年3月29
-    + 功能看图：
-    + ![功能展示](./img/zs.png)
-    + 网站支持：智慧树和超星学习通（bg-init.js过滤实现）。
-    + 说明：本软件只提供学习交流请勿使用于任何商业行为，转载请标注来源，不得侵犯。
++ 名字：最爱小助手
++ 版本：1.0.1
++ 作者：花妆男（HuanZhuangNan）-- 原用名-陌轩痕
++ 语言 JavaScript、Html、Css
++ 完工时间：2019年3月29
++ 功能看图：
++ ![功能展示](./img/zs.png)
++ 网站支持：智慧树和超星学习通（bg-init.js过滤实现）。
++ 说明：本软件只提供学习交流请勿使用于任何商业行为，转载请标注来源，不得侵犯。
 
-## 使用教程见视频 jc.mp4 视频里加载的软件的文件夹就是src文件夹
+## 使用教程视频 [视频(Video)](./video.md)
 
 ## 目录文件详解
 
-    + doc 文档
-    + mainifset.json  插进配置文件 
-    + src/view
++ doc 文档
++ mainifset.json  插进配置文件
++ src/view
   
 | 文件名 | 解释 |
 |--|--|
@@ -47,8 +47,8 @@
 |no.html | 不支持网站弹出页面 |
 | popup.html | 支持时弹出的设置页 |
   
-    + src/lib  jquery支持
-    + src/js   
++ src/lib  jquery支持
++ src/js
 
 | 文件名 |解释 |
 |--|--|
@@ -62,15 +62,15 @@
 
 ## 文章链接
 
-    + [CSDN](https://blog.csdn.net/weixin_43596929/article/details/89044160)
-    + [简书](https://www.jianshu.com/p/6eb913194c2c)
++ [CSDN](https://blog.csdn.net/weixin_43596929/article/details/89044160)
++ [简书](https://www.jianshu.com/p/6eb913194c2c)
 
 ## 后记：送大家一句话吧：未来的不可知是我前进的源动力
 
 ## 如果觉得好用，支持下呗
 
-    <div style="float:left;">
+<div style="float:left;">
     <img alt="QQ"  src="./img/qq.png" width="30%" height="400px" style="margin-right:20px;">
     <img alt="微信" src="./img/wexin.png" width="30%" height="400px" style="margin-right:20px;" >
     <img alt="支付宝" src="./img/zfb.jpg" width="30%" height="400px" >
-    </div>
+</div>
