@@ -16,7 +16,7 @@
 + 版本升级 1.1.0
 + 完工时间 2019年5月13日 17点55分
 
-## 联系方式QQ：2382252568
+## 联系方式TG:[https://t.me/huazhuangnan](https://t.me/huazhuangnan)邮箱：huazhuangnan@foxmail.com
 
 ## 介绍：低调使用，建议不过6倍
 
